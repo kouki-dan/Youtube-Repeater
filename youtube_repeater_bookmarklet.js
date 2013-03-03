@@ -1,0 +1,1 @@
+javascript:(function(){var d=document;var a="addEventListener";var p=d.getElementsByTagName("embed")[0];if(!d.location.hostname.match(/youtube.com/)){alert("This page is not youtube.");}else{if(p){if(p[a]){p[a]("onStateChange","repaeter_qQFE");}}}repaeter_qQFE = function(s){if(s == 0){p.playVideo()}}})();
